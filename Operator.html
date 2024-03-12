@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=x, initial-scale=1.0">
+    <title>Kalkulatorr Deni Brouww</title>
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            margin: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        select {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: slateblue;
+        }
+
+        #hasil {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <input type="number" id="angka1" placeholder="Angka 1">
+    <input type="number" id="angka2" placeholder="Angka 2">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <button onclick="hitung()">Generate Abangkuh</button>
+    <p id="hasil"></p>
+
+    <script src="operator.js"></script>
+</body>
+</html>
