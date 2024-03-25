@@ -1,0 +1,84 @@
+/* Navbar styles remain unchanged */
+
+.navbar-brand {
+    margin-left: 40px;
+    color: greenyellow;
+    font-size: 30px;
+  }
+  
+  .navbar-brand:hover {
+    color: greenyellow;
+  }
+  
+  .navbar-nav {
+    margin-right: 40px;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+  
+  .nav-link {
+    color: greenyellow;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover {
+    font-weight: bolder;
+    color: greenyellow;
+  }
+  
+  .btn {
+    background-color: greenyellow;
+    border: none;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .card {
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .container {
+    justify-content: center;
+    display: flex;
+  }
+  
+  blockquote {
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 12px;
+  }
+  
+  #Contact {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .cont {
+    color: greenyellow;
+  }
+  
+  /* New styles for 2-column layout and form */
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Adjust the gap between content items */
+  }
+  
+  .form-container {
+    background-color: #f0f0f0; /* Background color for form container */
+    border-radius: 10px; /* Rounded corners for form container */
+    padding: 20px; /* Padding inside form container */
+  }
+  
+  .formm {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px; /* Adjust the maximum width of the form */
+  }
+  
